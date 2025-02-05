@@ -4,10 +4,10 @@
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 # Install
-sudo . $SCRIPT_DIR/installation.sh
+sudo sh $SCRIPT_DIR/installation.sh
 
 # Add GameSkeleton
-sudo . $SCRIPT_DIR/gameskeleton.sh "https://github.com/hhu-adam/GameSkeleton.git"
+sudo sh $SCRIPT_DIR/gameskeleton.sh "https://github.com/hhu-adam/GameSkeleton.git"
 
 # Start
-sudo . $SCRIPT_DIR/run.sh
+sudo sh $SCRIPT_DIR/run.sh
