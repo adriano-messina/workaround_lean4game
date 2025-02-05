@@ -16,4 +16,4 @@ fi
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 # execute the command that is really needed
-sudo -u lean4game $SCRIPT_DIR/.gameskeleton_without_sudo.sh $1 $2
+sudo -u lean4game sh $SCRIPT_DIR/.gameskeleton_without_sudo.sh $1 $2
