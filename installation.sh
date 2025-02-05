@@ -17,4 +17,4 @@ sudo apt install git curl cmake make cpp g++
 
 
 # execute the part that not need sudo, luckyly
-sudo -u lean4game $SCRIPT_DIR/.installation_without_sudo.sh
+sudo -u lean4game sh $SCRIPT_DIR/.installation_without_sudo.sh
