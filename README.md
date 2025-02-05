@@ -29,18 +29,18 @@ You are responsible, what you do.
 `git clone https://github.com/adriano-messina/workaround_lean4game.git`
 
 2. Execute with root privileges.
-`sudo . ./installation.sh`
+`sudo sh ./installation.sh`
 
 ## Add custom GameSkeleton
 
 You need your custom code in the VCS git, then execute the following command replaced the URL and MAIN_DIR_NAME
-`sudo . ./gameskeleton.sh "URL" "MAIN_DIR_NAME"`
+`sudo sh ./gameskeleton.sh "URL" "MAIN_DIR_NAME"`
 
 
 ## Run Lean Game
 
 Execute after a sucessful installation the folowing script with root privileges.
-`sudo . run.sh`
+`sudo sh run.sh`
 You can reach the demo world whith [http://localhost:3000/#/g/local/GameSkeleton](http://localhost:3000/#/g/local/GameSkeleton).
 Well if you had it on a server please edit the url and replace "localhost" by the ip-adress/hostname of your machine.
 If you want to reach an other GameSkeleton, replace "GameSkeleton" by the name of the directory.
