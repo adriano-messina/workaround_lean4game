@@ -5,8 +5,13 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 
 # Create a user for the lean4game server
-adduser lean4game
+sudo adduser lean4game --gecos "" --disabled-password
 # strongly recommendent, since lean4 / lean4game has poor installer
+
+# change only the owner of the hidden files to lean4game
+sudo chown -cR lean4game $SCRIPT_DIR/.installation_without_sudo.sh
+sudo chown -cR lean4game $SCRIPT_DIR/.gameskeleton_without_sudo.sh
+sudo chown -cR lean4game $SCRIPT_DIR/.run_without_sudo.sh
 
 
 # Lean4, Lean4game needs some dependecies that are sadly not explicitly listet in their documentation
