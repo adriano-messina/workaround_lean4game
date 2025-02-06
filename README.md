@@ -18,7 +18,7 @@ You are responsible, what you do.
   
   *without also possible, but not recommended, since the dependencities may not fulfilled.*
   
-- fresh Ubuntu 22.04 LTS
+- Ubuntu 22.04 LTS
 
   *maybe it will work on newer or older ubuntu versions, or on debian too*
   *contact me if it works for some other distributions or versions, i will add them in the list*
