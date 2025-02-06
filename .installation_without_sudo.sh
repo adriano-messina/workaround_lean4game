@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Script directory
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-
 # now the messy part
 ######
 
@@ -30,7 +27,7 @@ export PATH="~/.elan/bin:$PATH"
 . ~/.profile
 
 # now let finally install a lean version that is stable
-elan default update # first update then install
+elan self update # first update then install
 elan default leanprover/lean4:stable
 # sadly we don't know which version we actually downloaded..
 # but THAT SHOULD NOT BREAK something, right?
