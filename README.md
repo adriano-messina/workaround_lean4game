@@ -35,6 +35,8 @@ You are responsible, what you do.
 
 `git clone https://github.com/adriano-messina/workaround_lean4game.git`
 
+*If the installer stops and want a user input, press enter.*
+
 2. Execute with root privileges.
 
 `sudo sh ./installation.sh`
